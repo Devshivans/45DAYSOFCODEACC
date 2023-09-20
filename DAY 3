@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t,x,y,i=0;
+    cout<<"enter the no. of test cases\n";
+    cin>>t;
+    while(i<t){
+    	cout<<"enter the values of students and chairs respectively\n";
+    cin>>x>>y;
+    if(x<=y){
+        cout<<0<<endl;
+    }
+    else
+        cout<<"the number of chairs chef has to buy :"<<x-y<<endl;
+        i++;
+    }
+	return 0;
+}
