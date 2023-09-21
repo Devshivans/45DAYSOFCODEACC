@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int x,y,t,i=0,a,z;
+	cout<<"enter the no. of test cases:";
+	cin>>t;
+	while(i<t){
+		cout<<"enter the no. of goal:";
+		cin>>x;
+		cout<<"enter the no. of sold chocalates:";
+		cin>>y;
+		if(x>=y){
+			cout<<"total amount he made:";
+			cout<<y*1<<"\n";
+		}
+		else{
+			z=(y-x)*2;
+			a=x;
+			cout<<"total amount he made:";
+			cout<<z+a<<"\n";
+			
+		}
+		i++;
+	}
+}
