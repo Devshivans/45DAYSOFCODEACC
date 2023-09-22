@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t,x;
+    cout<<"Enter the no. of test cases:";
+    cin>>t;
+    while(t--){
+        cout<<"Enter the battery's percentage:";
+        
+        cin>>x;
+        if(x<=15){
+            cout<<"YES\n";
+        }
+        else{
+            cout<<"NO\n";
+        }
+    }
+	// your code goes here
+	return 0;
+}
