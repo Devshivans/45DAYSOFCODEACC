@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int t,n,c=4;
+	cout<<"enter the no. of test cases:";
+	cin>>t;
+	while(t--){
+		cout<<"enter the no. of friends:";
+		cin>>n;
+		int mincar=(n+c-1)/c;
+		cout<<"the no. of car required:"<<mincar<<"\n";
+	}
+}
