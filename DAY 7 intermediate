@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,a,b,c;
+	cout<<"enter the no. of test cases:";
+	cin>>t;
+	while(t--){
+	    cout<<"enter the no. of people in city A:";
+	    cin>>a;
+	    cout<<"enter the no. of people in city b:";
+          cin>>b;
+       cout<<"enter the no. of people in city c:";
+       cin>>c;
+       if(a+c>b){
+           cout<<a+c;
+       }
+       else{
+           cout<<b;
+       }
+	}
+	return 0;
+}
