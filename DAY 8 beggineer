@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y;
+     cout<<"enter the no. of test cases:";
+     cin>>t;
+     while(t--){
+         cout<<"enter the capacity of geyser:";
+         cin>>x;
+         cout<<"enter the capacity of bucket:";
+         cin>>y;
+         if(x<2*y){
+             cout<<"0 people \n";
+             
+         }
+         else{
+         	int a=2*y;
+         	int b=x/a;
+             cout<<b;
+             cout<<"\n";
+            
+         }
+     }
+
+	return 0;
+}
