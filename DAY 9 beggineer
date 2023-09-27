@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y;
+	cout<<"enter the no. of test cases:";
+	cin>>t;
+	while(t--){
+	    cout<<"enter the rent of coller:";
+	    cin>>x;
+	    cout<<"enter the price of cooler:";
+	    cin>>y;
+	    if(y>x){
+	        cout<<(y-1)/x<<endl;
+	    }
+	    else{
+	        cout<<"0"<<endl;
+	    }
+	}
+	return 0;
+}
