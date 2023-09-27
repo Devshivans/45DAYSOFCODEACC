@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b,c,d,e,t;
+	cout<<"enter the no. of test cases:";
+	cin>>t;
+	while(t--){
+	    cout<<"enter the weight of all three bags:";
+	    cin>>a;
+	    cin>>b;
+		cin>>c;
+		cout<<"enter the check in weight:";
+		cin>>d;
+		cout<<"enter the carry bag weight:";
+		cin>>e;
+	    if((a+b<=d && c<=e)||(a+c<=d && b<=e)||(b+c<=d && a<=e)){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
