@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,a,b,c;
+	    int e,f,g;
+	    cin>>x>>a>>b>>c;
+	    e = min(a,min(b,c));
+	    f = max(a,max(b,c));
+	    g = (a+b+c) - (e+f);
+	    cout<<e*(x-1) + g<<endl;
+	}
+	return 0;
+}
