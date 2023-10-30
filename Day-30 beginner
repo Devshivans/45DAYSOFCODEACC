@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    int a;
+	    a=x/y;
+	    if(a>=20){
+	        cout<<20<<endl;
+	    }
+	    else{
+	        cout<<a<<endl;
+	    }
+	}
+	return 0;
+}
