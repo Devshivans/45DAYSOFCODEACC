@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T,N,X,D;
+	cout<<"enter the no. of test cases:";
+	cin>>T;
+	while(T--){
+	    cout<<"\n Enter the no. of buns";
+	    cin>>N;
+	    cout<<"\n enter the no. of bun needs each person:";
+	    cin>>X;
+	    cout<<"\n enter the no. of days survive without buns ";
+	    cin>>D;
+	    cout<<(N/(X*5))+D;
+	    
+	}
+	return 0;
+}
